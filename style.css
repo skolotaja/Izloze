@@ -1,0 +1,20 @@
+table, th, td{
+    border: 1px solid rgb(0, 0, 0);
+    width:70%;
+    background-color: bisque;
+  } 
+  td{
+      width:50%;
+  }
+  thead{
+      text-align:center;
+    font-weight: bold;
+    font-size: 20px;
+  }
+  tr{
+      font-size: 20px;
+      text-align: center;
+  }
+  img{
+      width:200px;
+  }

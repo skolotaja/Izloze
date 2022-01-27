@@ -12,9 +12,6 @@ for (let i = 0; i < uzvaretajuSkaits; i++) {
     let uzvaretajs = vardi[rand];//izvada konsolē
     rindas.innerHTML += `
 <tr>
-<td>${i + 1}</td>
-rindas.innerHTML += `
-<tr>
 <td>${i+1}</td>
 <td>${uzvaretajs}</td>
 </tr>`
