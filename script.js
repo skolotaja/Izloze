@@ -8,17 +8,17 @@ rindas.innerHTML = ' ';
 //rindas.innerHTML = ' ';
 for (let i = 0; i < uzvaretajuSkaits,balvuSkaits;i++) {
     let rand = Math.random() * vardi.length;
-    let rand1 = Math.random()*balvas.length;
+    //let rand1 = Math.random()*balvas.length;
     rand = Math.floor(rand);//noapaļo uz leju
-    rand1=Math.floor(rand1);
+    //rand1=Math.floor(rand1);
 
     let uzvaretajs = vardi[rand];//izvada konsolē
-    let balvas= balvas[rand1];
+    //let balvas= balvas[rand1];
     
         rindas.innerHTML += `
 <tr>
 <td>${i + 1}</td>
 <td>${uzvaretajs}</td>
-<td>${balvas}</td>
+//<td>${balvas}</td>
 </tr>`
     }
