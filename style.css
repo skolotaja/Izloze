@@ -1,10 +1,10 @@
 table, th, td{
     border: 1px solid rgb(0, 0, 0);
-    width:70%;
+    width:50%;
     background-color: bisque;
   } 
   td{
-      width:50%;
+      width:25%;
   }
   thead{
       text-align:center;
